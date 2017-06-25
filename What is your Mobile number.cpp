@@ -13,7 +13,7 @@ int main()
       int l=s.size();
       if(l!=10||s[0]=='0')
       {
-      cout<<"NO"<<endl;
+      cout<<"NO"<<endl;   //mobile number is not valid
        continue;
       }
     else
@@ -25,9 +25,9 @@ int main()
         c=1;
       }
       if(c==0)
-      cout<<"YES"<<"\n";
+      cout<<"YES"<<"\n";  //Mobile number is valid
        else
-       cout<<"NO"<<"\n";
+       cout<<"NO"<<"\n";   //Mobile number is not valid
       }
     
     }
